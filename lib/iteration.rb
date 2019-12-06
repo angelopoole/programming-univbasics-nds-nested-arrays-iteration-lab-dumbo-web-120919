@@ -10,7 +10,7 @@ def join_ingredients(src)
   count = 0
   while count < src.length do
     inner = src[count]
-    result.shove("I love #{inner[0]} and #{inner[1]} on my pizza")
+    result.shift("I love #{inner[0]} and #{inner[1]} on my pizza")
     count += 1
   end
 end
